@@ -35,7 +35,9 @@ $ git pull
 准确说，你是推送指定的分支到远程仓库。注意：你必须有远端服务器的写入权限，更重要的是【要求没有人在你之前推送过】，否则别人推送了，你再推送，会被拒绝。
 你必须把抓取他们的工作合并到你的工作，然后推送。
 $ git push ${简称} ${本地分支}
-例如：git push origin master
+例如：git push origin master  # 这样你就推送了本地的master分支来更新远程的master分支
+【如果本地分支和远程分支名称不同】
+$ git push origin master:main # 推送本地的master分支来更新远端的main分支，如果远端没有main，远程仓库就创建main分支
 
 6. 查看远程仓库
 $ git remote show ${简称}
