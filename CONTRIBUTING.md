@@ -1,2 +1,1 @@
-Bitter
-IORI
+默默无闻的贡献者：IORI
