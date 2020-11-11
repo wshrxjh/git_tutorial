@@ -25,6 +25,7 @@ first是用git remote add first ${远程库地址}来添加的
 $ git fetch ${简称}
 例如git fetch origin
 fetch只会将数据下载到你本地，并不会去合并分支或修改你当前的工作内容(即不会切换你所处的分支)
+通常fetch后的数据在"${简称}/${分支}"这条分支上，随后git merge ${简称}/${分支}即可
 
 如果当前分支设置了"跟踪远程分支"，那么可以使用
 $ git pull 
