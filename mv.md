@@ -34,5 +34,7 @@ git add example.md
 git commit -m "说明文件改用markdown"
 git push origin master
 
-你能push成功，此时你本机工作区显示只有example.md，但实际上本机仓库和远端库中，同时存在example.txt和example.md。如果你用git status，就能看到git提示你删除example.txt
+你能push成功，此时你本机工作区显示只有example.md。
+但实际上本机仓库和远端库中，同时存在example.txt和example.md。
+如果你用git status，就能看到git提示你删除example.txt。
 ```
