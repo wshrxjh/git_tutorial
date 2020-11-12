@@ -9,6 +9,4 @@
 
 
 当项目管理员/作者/维护者的“主仓库”数据更新了之后
-1. git fetch 项目地址简称(origin) 源项目分支:本地分支(建议本地分支非master)
-   例如：git fetch origin master:dev
-2.
+1. git remote add upstream xxx
