@@ -1,8 +1,0 @@
-
-1. 将fork出的副本clone到本机(得到master分支)
-2. 创建一个dev分支并切换到该分支
-3. 修改检查和测试代码
-4. 提交
-5. 将dev分支push到副本库；git push origin dev
-6. 提交pull request(合并请求)，请求 ${author}:master  <-- ${you}:dev
-
