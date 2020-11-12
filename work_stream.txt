@@ -6,5 +6,3 @@
 5. 将dev分支push到副本库；git push origin dev
 6. 提交pull request(合并请求)，请求 ${author}:master  <-- ${you}:dev
 
-
-但如果
